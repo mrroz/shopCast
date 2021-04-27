@@ -1,5 +1,7 @@
 import {Component} from 'react';
 import Layout from './components/Layout/Layout'
+import Shopping from './containers/Shopping/Shopping';
+
 
 class App extends Component {
   state = {  }
@@ -8,7 +10,11 @@ class App extends Component {
       <div>
 
         <Layout>
-          <p>app runn</p>
+        
+
+          <Shopping/>
+      
+    
         </Layout>
 
 

@@ -1,0 +1,36 @@
+.builder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.builder button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 12px;
+    width: 80px;
+    background: #9c27b0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.builder button:hover {
+    background: #d63c3c;
+    padding: 3px;
+}
+
+.builder div {
+    color: #8e24aa;
+    margin: 0 12px;
+}
+
+.alert:hover {
+    background-color: rgb(196, 99, 9);
+    color: white;
+    padding-top: 10px;
+    transition: 1s;
+}

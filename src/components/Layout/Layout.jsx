@@ -1,5 +1,7 @@
 import React from 'react';
 import Wrapper from '../../hoc/Wrapper';
+import './Layout.css'
+
 
 const Layout = (props) => {
     return ( 
@@ -7,7 +9,7 @@ const Layout = (props) => {
         <Wrapper>
 
             <div>
-                navigation
+                navigation in Layout in components
             </div>
 
             <main>
